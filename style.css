@@ -1,0 +1,48 @@
+/* general */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: times, Helvetica, sans-serif;
+}
+
+.main-content {
+  width: 100vw;
+  height: 98vh;
+}
+
+.berlino, .londra, .barcellona {
+  height: 33.3333%;
+  margin: 3px;
+  position: relative;
+}
+
+.title {
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* blocco berlino */
+.berlino {
+  background: url(img/berlino.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/* blocco londra */
+.londra {
+  background: url(img/londra.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* blocco barcellona */
+.barcellona {
+  background: url(img/barcellona.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
